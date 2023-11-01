@@ -11,7 +11,7 @@ func _process(delta):
 	if $RayCastRight.is_colliding():
 		Global.enemy_group_direction=Vector2.LEFT
 func destroy():
-	$AudioStreamPlayer2D.play()
+	#$AudioStreamPlayer2D.play()
 	$AnimatedSprite.visible=true
 	$AnimatedSprite.play("play")
 	$CollisionShape2D.disabled=true
