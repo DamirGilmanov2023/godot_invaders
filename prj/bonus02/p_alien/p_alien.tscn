@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://bonus02/p_alien/mr-hankey.png" type="Texture" id=1]
+[ext_resource path="res://bonus02/p_alien/p_alien.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 7.07107
+
+[node name="p_alien" type="KinematicBody2D"]
+scale = Vector2( 1.44014, 1.44014 )
+collision_layer = 0
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+
+[node name="Mr-hankey" type="Sprite" parent="."]
+position = Vector2( 0, -12.4988 )
+scale = Vector2( 0.0556477, 0.0556477 )
+texture = ExtResource( 1 )
+
+[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
