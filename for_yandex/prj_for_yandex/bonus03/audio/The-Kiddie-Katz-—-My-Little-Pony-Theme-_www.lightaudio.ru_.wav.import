@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/The-Kiddie-Katz-—-My-Little-Pony-Theme-_www.lightaudio.ru_.wav-2423affb9018f967dabe839999d1fc91.sample"
+
+[deps]
+
+source_file="res://bonus03/audio/The-Kiddie-Katz-—-My-Little-Pony-Theme-_www.lightaudio.ru_.wav"
+dest_files=[ "res://.import/The-Kiddie-Katz-—-My-Little-Pony-Theme-_www.lightaudio.ru_.wav-2423affb9018f967dabe839999d1fc91.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

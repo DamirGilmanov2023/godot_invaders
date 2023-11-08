@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/01_Punch_v1.wav-b521630d5b52f409d41688df3d7b001d.sample"
+
+[deps]
+
+source_file="res://bonus01/audio/01_Punch_v1.wav"
+dest_files=[ "res://.import/01_Punch_v1.wav-b521630d5b52f409d41688df3d7b001d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
