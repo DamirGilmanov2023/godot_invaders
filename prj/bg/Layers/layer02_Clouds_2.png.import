@@ -14,7 +14,7 @@ dest_files=[ "res://.import/layer02_Clouds_2.png-204f95911d4fb6fdfde198ebbcf2ac5
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0

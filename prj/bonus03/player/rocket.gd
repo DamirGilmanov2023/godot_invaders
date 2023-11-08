@@ -34,4 +34,5 @@ func _on_AnimatedSpriteDamage_animation_finished():
 
 func _on_AnimatedSpriteDead_animation_finished():
 	$AnimatedSpriteDead.stop()
+	get_tree().change_scene("res://CanvasLayer.tscn")
 

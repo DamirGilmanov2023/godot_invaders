@@ -14,7 +14,7 @@ dest_files=[ "res://.import/layer07_Stars_2.png-53d5a1cac28d7e2623dd92ad886d66a9
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0

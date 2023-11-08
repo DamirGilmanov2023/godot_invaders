@@ -25,12 +25,15 @@ func _process(delta):
 				pa.position=mm.global_position
 				add_child(pa)
 				$AudioStreamPlayer2D.play()
+		else:
+			get_tree().change_scene("res://CanvasLayer.tscn")
 	if Global.health==0 and perem==0:
 		perem+=1
 		$rocket.dead()
 		$Timer_fire_player.stop()
 		$Timer_fire_alien.stop()
 		$AudioStreamPlayer2D2.play()
+		
 		
 	if health>Global.health and perem==0:
 		$rocket.damage()
@@ -44,3 +47,7 @@ func _on_Timer_fire_player_timeout():
 func _on_Timer_fire_alien_timeout():
 	flag_fire_alien=true
 	$Timer_fire_alien.start()
+
+
+func _on_TextureButton_button_down():
+	get_tree().change_scene("res://CanvasLayer.tscn")

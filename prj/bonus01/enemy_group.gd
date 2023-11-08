@@ -10,4 +10,5 @@ func _ready():
 					$enemy31,$enemy32,$enemy33,$enemy34,$enemy35,$enemy36]
 	for m in mass_enemy:
 		$Tween.interpolate_property(m,'position',Vector2(m.position.x,m.position.y-1000),m.position,2,Tween.TRANS_QUINT,Tween.EASE_IN_OUT)	
+		$Tween.start()
 	#$Tween.interpolate_property($enemy36,'position',Vector2(0,0),$enemy36.position,2,Tween.TRANS_QUINT,Tween.EASE_IN_OUT)
