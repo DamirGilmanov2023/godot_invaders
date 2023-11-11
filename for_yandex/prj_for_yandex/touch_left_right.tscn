@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://arroy.png" type="Texture" id=1]
+
+[node name="touch_left_right" type="CanvasLayer"]
+
+[node name="right" type="TouchScreenButton" parent="."]
+position = Vector2( 1129, 570 )
+scale = Vector2( 1.48, 1.48 )
+normal = ExtResource( 1 )
+action = "ui_right"
+
+[node name="left" type="TouchScreenButton" parent="."]
+position = Vector2( 148, 719 )
+rotation = 3.14159
+scale = Vector2( 1.48, 1.48 )
+normal = ExtResource( 1 )
+action = "ui_left"
