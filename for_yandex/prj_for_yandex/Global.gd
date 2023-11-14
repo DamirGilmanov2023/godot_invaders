@@ -1,7 +1,7 @@
 extends Node2D
 var enemy_group_direction=Vector2.RIGHT
 var health:int=4
-
+var reklama=0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

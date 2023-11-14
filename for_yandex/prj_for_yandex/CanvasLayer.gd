@@ -8,7 +8,9 @@ extends CanvasLayer
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	Global.js_show_ad()
+	if Global.reklama==0:
+		Global.js_show_ad()
+		Global.reklama+=1
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
