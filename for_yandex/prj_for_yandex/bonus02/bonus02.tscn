@@ -19,6 +19,7 @@ script = ExtResource( 8 )
 [node name="sp" parent="." instance=ExtResource( 9 )]
 
 [node name="enemy_group" parent="." instance=ExtResource( 7 )]
+scale = Vector2( 0.719999, 0.719999 )
 
 [node name="wall" parent="." instance=ExtResource( 5 )]
 
@@ -31,12 +32,12 @@ position = Vector2( 608, 618 )
 [node name="Tween" type="Tween" parent="."]
 
 [node name="Timer_fire_player" type="Timer" parent="."]
-wait_time = 1.005
+wait_time = 2.0
 one_shot = true
 autostart = true
 
 [node name="Timer_fire_alien" type="Timer" parent="."]
-wait_time = 0.891
+wait_time = 0.8
 one_shot = true
 autostart = true
 

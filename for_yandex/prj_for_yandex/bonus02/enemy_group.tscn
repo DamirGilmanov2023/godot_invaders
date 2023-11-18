@@ -39,6 +39,21 @@ position = Vector2( 874.107, 61.607 )
 [node name="enemy10" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
 position = Vector2( 974.107, 61.607 )
 
+[node name="enemy86" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1071.43, 61.607 )
+
+[node name="enemy87" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1171.43, 61.607 )
+
+[node name="enemy88" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1271.43, 61.607 )
+
+[node name="enemy89" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1371.43, 61.607 )
+
+[node name="enemy90" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1471.43, 61.607 )
+
 [node name="enemy11" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
 position = Vector2( 74.1071, 161.607 )
 
@@ -68,6 +83,21 @@ position = Vector2( 874.107, 161.607 )
 
 [node name="enemy20" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
 position = Vector2( 974.107, 161.607 )
+
+[node name="enemy81" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1075, 161.607 )
+
+[node name="enemy82" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1175, 161.607 )
+
+[node name="enemy83" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1275, 161.607 )
+
+[node name="enemy84" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1375, 161.607 )
+
+[node name="enemy85" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1475, 161.607 )
 
 [node name="enemy21" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
 position = Vector2( 74.1071, 261.607 )
@@ -99,6 +129,21 @@ position = Vector2( 874.107, 261.607 )
 [node name="enemy30" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
 position = Vector2( 974.107, 261.607 )
 
+[node name="enemy76" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1072.32, 261.607 )
+
+[node name="enemy77" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1172.32, 261.607 )
+
+[node name="enemy78" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1272.32, 261.607 )
+
+[node name="enemy79" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1372.32, 261.607 )
+
+[node name="enemy80" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1472.32, 261.607 )
+
 [node name="enemy31" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
 position = Vector2( 74.1071, 361.607 )
 
@@ -128,3 +173,108 @@ position = Vector2( 874.107, 361.607 )
 
 [node name="enemy40" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
 position = Vector2( 974.107, 361.607 )
+
+[node name="enemy71" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1074.11, 361.607 )
+
+[node name="enemy72" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1174.11, 361.607 )
+
+[node name="enemy73" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1274.11, 361.607 )
+
+[node name="enemy74" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1374.11, 361.607 )
+
+[node name="enemy75" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1474.11, 361.607 )
+
+[node name="enemy41" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 74.1071, 461.607 )
+
+[node name="enemy42" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 174.107, 461.607 )
+
+[node name="enemy43" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 274.107, 461.607 )
+
+[node name="enemy44" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 374.107, 461.607 )
+
+[node name="enemy45" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 474.107, 461.607 )
+
+[node name="enemy46" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 574.107, 461.607 )
+
+[node name="enemy47" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 674.107, 461.607 )
+
+[node name="enemy48" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 774.107, 461.607 )
+
+[node name="enemy49" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 874.107, 461.607 )
+
+[node name="enemy50" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 974.107, 461.607 )
+
+[node name="enemy66" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1073.21, 461.607 )
+
+[node name="enemy67" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1173.21, 461.607 )
+
+[node name="enemy68" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1273.21, 461.607 )
+
+[node name="enemy69" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1373.21, 461.607 )
+
+[node name="enemy70" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1473.21, 461.607 )
+
+[node name="enemy51" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 74.1071, 561.607 )
+
+[node name="enemy52" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 174.107, 561.607 )
+
+[node name="enemy53" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 274.107, 561.607 )
+
+[node name="enemy54" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 374.107, 561.607 )
+
+[node name="enemy55" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 474.107, 561.607 )
+
+[node name="enemy56" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 574.107, 561.607 )
+
+[node name="enemy57" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 674.107, 561.607 )
+
+[node name="enemy58" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 774.107, 561.607 )
+
+[node name="enemy59" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 874.107, 561.607 )
+
+[node name="enemy60" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 974.107, 561.607 )
+
+[node name="enemy61" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1075, 561.607 )
+
+[node name="enemy62" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1175, 561.607 )
+
+[node name="enemy63" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1275, 561.607 )
+
+[node name="enemy64" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1375, 561.607 )
+
+[node name="enemy65" parent="." groups=["enemy_group2"] instance=ExtResource( 1 )]
+position = Vector2( 1475, 561.607 )
