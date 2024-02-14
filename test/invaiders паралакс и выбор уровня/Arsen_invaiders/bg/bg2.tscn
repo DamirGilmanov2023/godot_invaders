@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://bg/scripts/ParallaxBackground.gd" type="Script" id=1]
+[ext_resource path="res://bg/2D Space Parallax Backgrounds/Red/T_RedBackground_Version3_Layer2.png" type="Texture" id=2]
+[ext_resource path="res://bg/2D Space Parallax Backgrounds/Red/T_RedBackground_Version3_Layer4.png" type="Texture" id=3]
+[ext_resource path="res://bg/2D Space Parallax Backgrounds/Red/T_RedBackground_Version3_Layer3.png" type="Texture" id=4]
+[ext_resource path="res://bg/2D Space Parallax Backgrounds/Red/T_RedBackground_Version3_Layer1.png" type="Texture" id=5]
+
+[node name="bg" type="ParallaxBackground"]
+script = ExtResource( 1 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_scale = Vector2( 1, 0.1 )
+motion_mirroring = Vector2( 0, 2560 )
+
+[node name="TPurpleBackgroundVersion1Layer1" type="Sprite" parent="ParallaxLayer"]
+position = Vector2( 640, -560 )
+scale = Vector2( 0.625, 0.625 )
+texture = ExtResource( 5 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2( 1, 0.2 )
+motion_mirroring = Vector2( 0, 2560 )
+
+[node name="TPurpleBackgroundVersion1Layer2" type="Sprite" parent="ParallaxLayer2"]
+position = Vector2( 640, -561 )
+scale = Vector2( 0.625, 0.625 )
+texture = ExtResource( 2 )
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+motion_scale = Vector2( 1, 0.3 )
+motion_mirroring = Vector2( 0, 2560 )
+
+[node name="TPurpleBackgroundVersion1Layer3" type="Sprite" parent="ParallaxLayer3"]
+position = Vector2( 640, -559 )
+scale = Vector2( 0.624512, 0.624512 )
+texture = ExtResource( 4 )
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+motion_scale = Vector2( 1, 0.4 )
+motion_mirroring = Vector2( 0, 2560 )
+
+[node name="TPurpleBackgroundVersion1Layer4" type="Sprite" parent="ParallaxLayer4"]
+position = Vector2( 639.5, -559 )
+scale = Vector2( 0.624512, 0.624512 )
+texture = ExtResource( 3 )

@@ -1,0 +1,76 @@
+0ee627c74185e9d030d7f2151a4df6ab
+::res://::1693991483
+01_Start.gd::GDScript::1693933601::0::1::::<>Control<>::
+01_Start.tscn::PackedScene::1693989812::0::1::::<><>::res://img/background.png<>res://button.tres<>res://font/ofont.ru_Maki Sans.ttf<>res://font/1517-font.ttf<>res://button_hover.tres<>res://button_pressed.tres<>res://01_Start.gd<>res://audio/click.wav
+02_Test.gd::GDScript::1693979424::0::1::::<>Control<>::
+02_Test.tscn::PackedScene::1693979759::0::1::::<><>::res://img/background.png<>res://02_Test.gd<>res://font/ofont.ru_Maki Sans.ttf<>res://img/circle5.png<>res://img/circle1.png<>res://img/circle4.png<>res://img/circle2.png<>res://img/circle3.png<>res://img/circle6.png<>res://img/circle7.png<>res://img/circle8.png<>res://img/Подложка.png<>res://img/circle1_pressed.png<>res://img/circle6_pressed.png<>res://img/circle2_pressed.png<>res://img/circle7_pressed.png<>res://img/circle8_pressed.png<>res://img/circle3_pressed.png<>res://img/circle4_pressed.png<>res://img/circle5_pressed.png<>res://img/circle2_hover.png<>res://img/circle3_hover.png<>res://img/circle8_hover.png<>res://img/circle5_hover.png<>res://img/circle1_hover.png<>res://img/circle4_hover.png<>res://img/circle7_hover.png<>res://img/circle6_hover.png<>res://audio/color_click.wav
+03_Wait.gd::GDScript::1693979716::0::1::::<>Control<>::
+03_Wait.tscn::PackedScene::1693979759::0::1::::<><>::res://img/background.png<>res://button.tres<>res://font/ofont.ru_Maki Sans.ttf<>res://img/timer/t5.png<>res://button_hover.tres<>res://button_pressed.tres<>res://03_Wait.gd<>res://img/timer/t4.png<>res://img/timer/t3.png<>res://img/timer/t2.png<>res://img/timer/t1.png<>res://audio/click.wav
+04_Test.gd::GDScript::1693979652::0::1::::<>Control<>::
+04_Test.tscn::PackedScene::1693979759::0::1::::<><>::res://img/background.png<>res://04_Test.gd<>res://font/ofont.ru_Maki Sans.ttf<>res://img/circle5.png<>res://img/circle1.png<>res://img/circle4.png<>res://img/circle2.png<>res://img/circle3.png<>res://img/circle6.png<>res://img/circle7.png<>res://img/circle8.png<>res://img/Подложка.png<>res://img/circle1_pressed.png<>res://img/circle6_pressed.png<>res://img/circle2_pressed.png<>res://img/circle7_pressed.png<>res://img/circle8_pressed.png<>res://img/circle3_pressed.png<>res://img/circle4_pressed.png<>res://img/circle5_pressed.png<>res://img/circle2_hover.png<>res://img/circle3_hover.png<>res://img/circle8_hover.png<>res://img/circle5_hover.png<>res://img/circle1_hover.png<>res://img/circle4_hover.png<>res://img/circle7_hover.png<>res://img/circle6_hover.png<>res://audio/color_click.wav
+05_Rezult.gd::GDScript::1693979753::0::1::::<>Control<>::
+05_Rezult.tscn::PackedScene::1693979759::0::1::::<><>::res://img/background.png<>res://button.tres<>res://font/ofont.ru_Maki Sans.ttf<>res://font/1708-font.otf<>res://button_hover.tres<>res://button_pressed.tres<>res://05_Rezult.gd<>res://rezult_label.tres<>res://audio/click.wav
+button.tres::StyleBoxFlat::1693979989::0::1::::<><>::
+button_hover.tres::StyleBoxFlat::1693979989::0::1::::<><>::
+button_pressed.tres::StyleBoxFlat::1693807596::0::1::::<><>::
+Control2.tscn::PackedScene::1693634622::0::1::::<><>::
+Control.gd::GDScript::1693633234::0::1::::<>Control<>::
+Control.tscn::PackedScene::1693638642::0::1::::<><>::res://img/background.png<>res://Control.gd<>res://img/circle.png
+default_env.tres::Environment::1693989812::0::1::::<><>::
+rezult_label.tres::StyleBoxFlat::1693979325::0::1::::<><>::
+scene_transition.gd::GDScript::1693931929::0::1::::<>CanvasLayer<>::
+scene_transition.tscn::PackedScene::1693672626::0::1::::<><>::res://scene_transition.gd
+::res://audio/::1693980020
+click.wav::AudioStreamSample::1693932999::1693933126::1::::<><>::
+color_click.wav::AudioStreamSample::1693932990::1693933126::1::::<><>::
+::res://font/::1693980020
+1517-font.ttf::DynamicFontData::1693633302::0::1::::<><>::
+1708-font.otf::DynamicFontData::1693903802::0::1::::<><>::
+appetite.ttf::DynamicFontData::1693633308::0::1::::<><>::
+bauhas_lt(RUS BY LYAJKA).ttf::DynamicFontData::1693633314::0::1::::<><>::
+Belepotan Rus Italic.otf::DynamicFontData::1693633324::0::1::::<><>::
+Belepotan Rus.otf::DynamicFontData::1693633320::0::1::::<><>::
+ChangaOne-Italic.ttf::DynamicFontData::1693633330::0::1::::<><>::
+ChangaOne-Regular.otf::DynamicFontData::1693633342::0::1::::<><>::
+ChangaOne-Regular.ttf::DynamicFontData::1693633336::0::1::::<><>::
+ofont.ru_Kardinal.ttf::DynamicFontData::1693903128::0::1::::<><>::
+ofont.ru_Maki Sans.ttf::DynamicFontData::1693633348::0::1::::<><>::
+ofont.ru_Montserrat Alternates.ttf::DynamicFontData::1693633352::0::1::::<><>::
+::res://img/::1693989878
+8837192-ai.png::StreamTexture::1693548912::1693634368::1::::<><>::
+back1.png::StreamTexture::1693504830::1693634470::1::::<><>::
+background.png::StreamTexture::1693211834::1693634470::1::::<><>::
+circle1.png::StreamTexture::1693670344::1693670902::1::::<><>::
+circle1_hover.png::StreamTexture::1693670378::1693670902::1::::<><>::
+circle1_pressed.png::StreamTexture::1693670658::1693670902::1::::<><>::
+circle2.png::StreamTexture::1693670262::1693670902::1::::<><>::
+circle2_hover.png::StreamTexture::1693670306::1693670902::1::::<><>::
+circle2_pressed.png::StreamTexture::1693670690::1693670902::1::::<><>::
+circle3.png::StreamTexture::1693670196::1693670902::1::::<><>::
+circle3_hover.png::StreamTexture::1693670222::1693670902::1::::<><>::
+circle3_pressed.png::StreamTexture::1693670722::1693670902::1::::<><>::
+circle4.png::StreamTexture::1693670008::1693670902::1::::<><>::
+circle4_hover.png::StreamTexture::1693670152::1693670902::1::::<><>::
+circle4_pressed.png::StreamTexture::1693670750::1693670902::1::::<><>::
+circle5.png::StreamTexture::1693669944::1693670902::1::::<><>::
+circle5_hover.png::StreamTexture::1693669972::1693670902::1::::<><>::
+circle5_pressed.png::StreamTexture::1693670794::1693670902::1::::<><>::
+circle6.png::StreamTexture::1693669884::1693670902::1::::<><>::
+circle6_hover.png::StreamTexture::1693669910::1693670902::1::::<><>::
+circle6_pressed.png::StreamTexture::1693670826::1693670902::1::::<><>::
+circle7.png::StreamTexture::1693669840::1693670902::1::::<><>::
+circle7_hover.png::StreamTexture::1693669726::1693670902::1::::<><>::
+circle7_pressed.png::StreamTexture::1693670854::1693670902::1::::<><>::
+circle8.png::StreamTexture::1693669508::1693669510::1::::<><>::
+circle8_hover.png::StreamTexture::1693669644::1693670902::1::::<><>::
+circle8_pressed.png::StreamTexture::1693670888::1693670902::1::::<><>::
+mypalette.png::StreamTexture::1693588614::1693634368::1::::<><>::
+podl.png::StreamTexture::1693505518::1693634368::1::::<><>::
+screen.jpg::StreamTexture::1693634990::1693635294::1::::<><>::
+Подложка.png::StreamTexture::1693637792::1693637796::1::::<><>::
+::res://img/timer/::1693980020
+t1.png::StreamTexture::1693682236::1693682740::1::::<><>::
+t2.png::StreamTexture::1693682336::1693682740::1::::<><>::
+t3.png::StreamTexture::1693682468::1693682740::1::::<><>::
+t4.png::StreamTexture::1693682552::1693682740::1::::<><>::
+t5.png::StreamTexture::1693682676::1693682740::1::::<><>::

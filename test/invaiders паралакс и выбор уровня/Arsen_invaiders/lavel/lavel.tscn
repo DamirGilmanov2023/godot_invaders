@@ -1,0 +1,171 @@
+[gd_scene load_steps=28 format=2]
+
+[ext_resource path="res://lavel/img/09.png" type="Texture" id=1]
+[ext_resource path="res://bg/bg01.tscn" type="PackedScene" id=2]
+[ext_resource path="res://lavel/img/08.png" type="Texture" id=3]
+[ext_resource path="res://lavel/img/04.png" type="Texture" id=4]
+[ext_resource path="res://lavel/img/02.png" type="Texture" id=5]
+[ext_resource path="res://lavel/img/b1.png" type="Texture" id=6]
+[ext_resource path="res://lavel/img/01.png" type="Texture" id=7]
+[ext_resource path="res://lavel/img/b3.png" type="Texture" id=8]
+[ext_resource path="res://lavel/img/05.png" type="Texture" id=9]
+[ext_resource path="res://lavel/img/06.png" type="Texture" id=10]
+[ext_resource path="res://lavel/img/10.png" type="Texture" id=11]
+[ext_resource path="res://lavel/img/07.png" type="Texture" id=12]
+[ext_resource path="res://lavel/img/n02.png" type="Texture" id=13]
+[ext_resource path="res://lavel/img/03.png" type="Texture" id=14]
+[ext_resource path="res://lavel/img/b2.png" type="Texture" id=15]
+[ext_resource path="res://lavel/img/n05.png" type="Texture" id=16]
+[ext_resource path="res://lavel/img/nb3.png" type="Texture" id=17]
+[ext_resource path="res://lavel/img/n08.png" type="Texture" id=18]
+[ext_resource path="res://lavel/img/n07.png" type="Texture" id=19]
+[ext_resource path="res://lavel/img/n04.png" type="Texture" id=20]
+[ext_resource path="res://lavel/img/n06.png" type="Texture" id=21]
+[ext_resource path="res://lavel/img/n03.png" type="Texture" id=22]
+[ext_resource path="res://lavel/img/nb1.png" type="Texture" id=23]
+[ext_resource path="res://lavel/img/n09.png" type="Texture" id=24]
+[ext_resource path="res://lavel/img/n10.png" type="Texture" id=25]
+[ext_resource path="res://lavel/img/nb2.png" type="Texture" id=26]
+[ext_resource path="res://lavel/img/006.png" type="Texture" id=27]
+
+[node name="lavel" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="bg01" parent="." instance=ExtResource( 2 )]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 241.0
+margin_bottom = 138.0
+rect_scale = Vector2( 0.84, 0.84 )
+custom_constants/margin_top = 106
+custom_constants/margin_left = 219
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer"]
+margin_left = 219.0
+margin_top = 106.0
+margin_right = 1521.0
+margin_bottom = 858.0
+custom_constants/vseparation = 10
+custom_constants/hseparation = 10
+columns = 5
+
+[node name="L1" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_right = 200.0
+margin_bottom = 239.0
+texture_normal = ExtResource( 7 )
+
+[node name="L2" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 210.0
+margin_right = 410.0
+margin_bottom = 239.0
+disabled = true
+texture_normal = ExtResource( 5 )
+texture_disabled = ExtResource( 13 )
+
+[node name="L3" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 420.0
+margin_right = 620.0
+margin_bottom = 239.0
+disabled = true
+texture_normal = ExtResource( 14 )
+texture_disabled = ExtResource( 22 )
+
+[node name="L4" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 630.0
+margin_right = 830.0
+margin_bottom = 239.0
+disabled = true
+texture_normal = ExtResource( 4 )
+texture_disabled = ExtResource( 20 )
+
+[node name="L5" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 840.0
+margin_right = 1040.0
+margin_bottom = 239.0
+disabled = true
+texture_normal = ExtResource( 9 )
+texture_disabled = ExtResource( 16 )
+
+[node name="L6" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_top = 249.0
+margin_right = 200.0
+margin_bottom = 488.0
+disabled = true
+texture_normal = ExtResource( 10 )
+texture_disabled = ExtResource( 21 )
+
+[node name="L7" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 210.0
+margin_top = 249.0
+margin_right = 410.0
+margin_bottom = 488.0
+disabled = true
+texture_normal = ExtResource( 12 )
+texture_disabled = ExtResource( 19 )
+
+[node name="L8" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 420.0
+margin_top = 249.0
+margin_right = 620.0
+margin_bottom = 488.0
+disabled = true
+texture_normal = ExtResource( 3 )
+texture_disabled = ExtResource( 18 )
+
+[node name="L9" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 630.0
+margin_top = 249.0
+margin_right = 830.0
+margin_bottom = 488.0
+disabled = true
+texture_normal = ExtResource( 1 )
+texture_disabled = ExtResource( 24 )
+
+[node name="L10" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 840.0
+margin_top = 249.0
+margin_right = 1040.0
+margin_bottom = 488.0
+disabled = true
+texture_normal = ExtResource( 11 )
+texture_disabled = ExtResource( 25 )
+
+[node name="TextureButton" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_top = 498.0
+margin_right = 200.0
+margin_bottom = 737.0
+
+[node name="LB1" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 210.0
+margin_top = 498.0
+margin_right = 410.0
+margin_bottom = 737.0
+disabled = true
+texture_normal = ExtResource( 6 )
+texture_disabled = ExtResource( 23 )
+
+[node name="LB2" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 420.0
+margin_top = 498.0
+margin_right = 620.0
+margin_bottom = 737.0
+disabled = true
+texture_normal = ExtResource( 15 )
+texture_disabled = ExtResource( 26 )
+
+[node name="LB3" type="TextureButton" parent="MarginContainer/GridContainer"]
+margin_left = 630.0
+margin_top = 498.0
+margin_right = 830.0
+margin_bottom = 737.0
+disabled = true
+texture_normal = ExtResource( 8 )
+texture_disabled = ExtResource( 17 )
+
+[node name="006" type="Sprite" parent="."]
+position = Vector2( 623, 47 )
+scale = Vector2( 0.145613, 0.145613 )
+texture = ExtResource( 27 )
