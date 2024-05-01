@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Южный-парк-_ost_-—-сезон-16-серия-2-_www.lightaudio.ru_.wav-3f3e937ec7254e74a276b445a54862fd.sample"
+
+[deps]
+
+source_file="res://bonus02/audio/Южный-парк-_ost_-—-сезон-16-серия-2-_www.lightaudio.ru_.wav"
+dest_files=[ "res://.import/Южный-парк-_ost_-—-сезон-16-серия-2-_www.lightaudio.ru_.wav-3f3e937ec7254e74a276b445a54862fd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
